@@ -1,0 +1,12 @@
+class Washinmachine
+{
+	public static void wash()
+	{
+		System.out.println("running wash in washingmachine");
+	}
+
+
+
+
+
+}

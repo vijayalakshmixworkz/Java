@@ -1,0 +1,161 @@
+19/6/24
+JDK- Java development kit
+	write and execute the program
+	tools(write)+JRE
+	
+JRE-Java Runtime environment
+	execute program
+	library +jvm(java virtual machine)(it is responsible to execute the program)
+Java -1995
+steps
+1.set env variable user/system
+2.set JAVA_HOME= copy the path of jdk
+3.edit, browse, program files,
+4.path 
+
+
+
+
+program: syntax for declaring a class
+
+class NameOfAThing
+{
+
+}
+class is a keyword it can be called as program
+java class-cmd - java
+javac Gun.java
+
+
+24/6/24
+java keywords
+abstract,assert,boolean,break,byte,class,try,case,switch,implements,extends,int,for, package,private,public,catch,synchronized,,volatile,if,import,case,long,while,return,continue,final,finally,native,super,throw,do,double,
+else,default,interface,goto,true,new,char,static,short,throws,instanceof,void,this,protected,enum,
+const,strictfp,false.
+
+
+Methods:
+	 Start your execution
+	we can run other programs(classes)
+	executed by jvm(java)
+Method is basically a block of code with a name.
+name{block}
+it is used to write statements or we can run other programs.
+
+program is class.
+class contain methods,methods have statements
+
+
+syntax:
+things=class
+func or actions=method
+Method 2 types: static and non-static
+
+javac classname.java ---- compile
+java classname.class   -- run
+
+
+2/7/23
+variable : to store the information
+syntax:datatype varName=value;
+types:
+1.local
+2.parameter
+3.static
+4.non-static
+
+
+1.local variable: declared within the method body.`
+2.parameter variable: it is also local variable,it is usually declared within paranthesis() of a method.
+
+void method(double salary)//parameter. // we can have one or more parameters.
+{
+char value='';//local variable
+}
+==========================================================================STRINGS:
+class DataRunner
+{
+public static void main(String[] args)
+{
+	// addition
+int start=4;
+int end=3;
+int result=start+end;// result 7 will stored in constant pool
+
+start=start+end;//reassignement
+boolean same=result==start;// same is pointing to the location of the equation
+System.out.println(same);//explicit reeference
+System.out.println(result);//explicit reeference because we declare it and we call it;
+System.out.println(10);//value will be stored in constant pool // it take location of 10 snd passes it to println
+// we dont have reference to 10 in this program therefore it is IMPLICIT REFERRENCE
+int doorNo=67;
+System.out.println(67);//explicit reference
+System.out.println(99);//implicit reference
+String door="n121";
+System.out.println("door no is:"+door);// string conacatenation belongs to  implicit reference. implicit reference within ""'
+System.out.println(7+8);// result is also implicit reference
+System.out.println("door no is:"+start);// concatenation of string and integer
+System.out.println("A"+"B");// it have 3  implicit ssreferences A,B,AB
+
+
+}
+}
+
+
+
+=======================================================================
+4/7/24
+//if used for checking reference
+int age=50;
+if(expression)//condition
+{
+//true,body executed
+}
+// false dont executed
+
+// or we can use else condition
+if(expression)//condition
+{
+//true,body executed
+}
+else
+{	
+// false execute
+}
+
+array is a datatype 
+store the reference
+datatype[] reference;
+two ways to init array,literal or new keyword
+array is stored in instance memory
+size of array is fixed
+elemement
+
+
+
+===============================================================================
+17/7/24
+Wrapper class
+it is a class used to convert string to primitive datatypes
+JDK=tools+jre
+JRE=lib(jar)+jvmJVM
+jar= java archieve
+jar=.class
+rt.jar= run time
+rt.jar have float integer and other classes 
+
+.java will be converted to .classit is executed by jvm
+it is called compile
+
+.class  ---> .java = decompile
+ 
+ ALL th primitive datatype have parse method.
+ parseDatatype(datatype)
+ primitiveDatatype parseDatatype(String)
+ 
+valueOf 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+
+	INTEGER JAVADOC
+	//wrapper class
+								float convertedprice=Float.parceFloat(price);
+	invoking parse method

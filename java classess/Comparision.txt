@@ -1,0 +1,10 @@
+class Comparision
+{
+public static void main(String[] args)
+{
+int noOfStudents=20;
+int NoOfDaysInAWeek=20;
+boolean same=(noOfStudents==NoOfDaysInAWeek);//== is double equals operator ,use it for comparision
+System.out.println("same:"+same);
+}
+}

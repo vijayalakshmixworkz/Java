@@ -1,0 +1,18 @@
+//3. Main to take information of a palace: name,location,builtBy,buildYear
+class palaceRunner
+{
+public static void main(String[] args)
+{
+	System.out.println("Running main in PersonRunner");
+	for (int  palacevalue=0;palacevalue<args.length;palacevalue++)
+	{
+		String name=args[0];
+		String area=args[1];
+		String establishedYear=args[2];
+		String state=args[3];
+
+	}
+	
+}
+
+}

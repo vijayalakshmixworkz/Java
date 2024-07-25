@@ -14,8 +14,6 @@ class Rupee
 	double weight;
 public Rupee()
 {
-	
-	
 System.out.println("Rupee constructor is created");
 
 }
@@ -28,7 +26,6 @@ class AirCondition
 	double price;
 public AirCondition()
 {
-	
 System.out.println("AirCondition constructor is created");
 
 }

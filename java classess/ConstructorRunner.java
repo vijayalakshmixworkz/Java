@@ -5,6 +5,7 @@
 
 
 class ConstructorRunner
+{
 	public static void main(String[] args)
 	{
 		System.out.println("Running mainRunner");
@@ -13,7 +14,7 @@ class ConstructorRunner
 		
 
 		Rupee rupee=new Rupee();
-		rupee.value="5";
+		rupee.value=5;
 		rupee.currency="INR";
 		rupee.weight=50;
 		System.out.println("value :"+rupee.value);
@@ -46,7 +47,7 @@ class ConstructorRunner
 		AutoDriver autoDriver=new AutoDriver();
 		autoDriver.name="Arun";
 		autoDriver.age=34;
-		autoDriver.contactNumber=6361971359;
+		autoDriver.contactNumber=6361;
 		System.out.println("autoDriver:"+autoDriver.name);
 		System.out.println("autoDriver:"+autoDriver.age);
 		System.out.println("autoDriver:"+autoDriver.contactNumber);
@@ -111,11 +112,12 @@ class ConstructorRunner
 		matrimony.signUpCost = 345567;
 		matrimony.numOfSubscribers = 5667879;
 		
-        System.out.println("owner : " + matrimony.owner); 
-		System.out.println("signUpCost: " + matrimony.signUpCost);
-		System.out.println("numOfSubscribers : " + matrimony.numOfSubscribers);
+        System.out.println(" update owner : " + matrimony.owner); 
+		System.out.println(" update signUpCost: " + matrimony.signUpCost);
+		System.out.println(" updated numOfSubscribers : " + matrimony.numOfSubscribers);
 
         // Application
+		
 		
         Application application = new Application();
         application.Name = "ChatGPT";
@@ -130,121 +132,149 @@ class ConstructorRunner
 		//update
 		application.Name = "Google";
         application.noOfDownloads = 568976;
-        application.developer = "sanju";
+        application.developerName = "sanju";
 		
-        System.out.println("Application - Name: " + application.Name);
-		System.out.println("noOfDownloads: " + application.noOfDownloads);
-		System.out.println("developerName: " + application.developerName);
+        System.out.println(" updated Application - Name: " + application.Name);
+		System.out.println("updated noOfDownloads: " + application.noOfDownloads);
+		System.out.println("updated developerName: " + application.developerName);
 
         // Fruit
-		String name;
-	float weight;
-	double cost;
+		
         Fruit fruit = new Fruit();
         fruit.name = "Apple";
-        fruit.cost = "Red";
-        fruit.weight = 0.15;
+        fruit.cost = 80;
+        fruit.weight = 5;
 		 System.out.println("Fruit - Name: " + fruit.name );
 		System.out.println("cost: " + fruit.cost );
 		System.out.println("Weight: " + fruit.weight + " kg");
 
 		//update
 		fruit.name = "Mango";
-        fruit.cost = "Yellow";
-        fruit.weight = 0.20;
+        fruit.cost = 60;
+        fruit.weight = 6;
 		
-        System.out.println("Fruit - Name: " + fruit.name );
-		System.out.println("cost: " + fruit.cost );
-		System.out.println("Weight: " + fruit.weight + " kg");
+        System.out.println(" updated Fruit - Name: " + fruit.name );
+		System.out.println("updated cost: " + fruit.cost );
+		System.out.println(" updated Weight: " + fruit.weight + " kg");
 
         // Juice
+		
+	
         Juice juice = new Juice();
-        juice.flavor = "Orange";
-        juice.volume = 250.0;
-        juice.isCold = true;
-		
-		//updatejuice.flavor = "WaterMelon";
-        juice.volume = 100.0;
-        juice.isCold = false;
-		
-        System.out.println("Juice - Flavor: " + juice.flavor);
-		System.out.println("Volume: " + juice.volume );
-		System.out.println(" ml, Is Cold: " + juice.isCold);
+        juice.flavour = "Orange";
+        juice.cost = 250.0;
+        juice.quantityInMl = 200;
+		 System.out.println("Juice - Flavor: " + juice.flavour);
+		System.out.println("cost: " + juice.cost );
+		System.out.println("  quantityInMl : " + juice.quantityInMl);
 
-        // Place
-        Place place = new Place();
-        place.name = "Paris";
-        place.country = "France";
-        place.area = 105.4;
-		
-		//place
-		place.name = "IstanBul";
-        place.country = "Turkey";
-        place.area = 200;
-		
-        System.out.println("Place - Name: " + place.name);
-		System.out.println("Country: " + place.country);
-		System.out.println("Area: " + place.area + " sq km");
-
-        // AlcoholBrand
-        AlcoholBrand alcoholBrand = new AlcoholBrand();
-        alcoholBrand.brandName = "Jack Daniel's";
-        alcoholBrand.alcoholPercentage = 40.0;
-        alcoholBrand.originCountry = "USA";
 		
 		//update
-		alcoholBrand.brandName = "Old Monk";
-        alcoholBrand.alcoholPercentage = 60.0;
-        alcoholBrand.originCountry = "London";
-        System.out.println("AlcoholBrand - Brand Name: " + alcoholBrand.brandName);
-		System.out.println("Alcohol Percentage: " + alcoholBrand.alcoholPercentage);
-		System.out.println("Origin Country: " + alcoholBrand.originCountry);
+		juice.flavour = "WaterMelon";
+        juice.cost = 100.0;
+        juice.quantityInMl = 250;
+		
+        System.out.println(" updated Juice - Flavor: " + juice.flavour);
+		System.out.println("updated cost: " + juice.cost );
+		System.out.println("  updated quantityInMl : " + juice.quantityInMl);
+
+        // Place
+	
+        Place place = new Place();
+        place.name = "Paris";
+        place.address = "France";
+        place.distance = 105.4;
+		 System.out.println("Place - Name: " + place.name);
+		System.out.println("address: " + place.address);
+		System.out.println("distance: " + place.distance + "  km");
+
+		
+		//place update
+		place.name = "IstanBul";
+        place.address = "Turkey";
+        place.distance = 200;
+		
+        System.out.println("updated Place - Name: " + place.name);
+		System.out.println(" updated address: " + place.address);
+		System.out.println("updated distance: " + place.distance + "  km");
+
+        // AlcoholBrand
+		
+        AlcoholBrand alcoholBrand = new AlcoholBrand();
+        alcoholBrand.name = "Jack Daniel's";
+        alcoholBrand.quantity = 40;
+        alcoholBrand.price = 150;
+		 System.out.println("AlcoholBrand - Brand Name: " + alcoholBrand.name);
+		System.out.println("Alcohol quantity: " + alcoholBrand.quantity);
+		System.out.println("price: " + alcoholBrand.price);
+
+		
+		//update
+		alcoholBrand.name = "Old Monk";
+        alcoholBrand.quantity = 60;
+        alcoholBrand.price = 200;
+        System.out.println(" updated AlcoholBrand - Brand Name: " + alcoholBrand.name);
+		System.out.println(" updated Alcohol quantity: " + alcoholBrand.quantity);
+		System.out.println("  updated price: " + alcoholBrand.price);
 
         // Candy
+		
+		
         Candy candy = new Candy();
         candy.name = "Snickers";
-        candy.weight = 0.05;
-        candy.flavor = "Chocolate";
+        candy.quantity = 2;
+        candy.flavour = "Chocolate";
+		 System.out.println("Candy - Name: " + candy.name);
+		System.out.println("quantity: " + candy.quantity );
+		System.out.println("Flavour: " + candy.flavour);
 		
 		//update
 		candy.name = "wafers";
-        candy.weight = 0.10;
-        candy.flavor = "Vanilla";
+        candy.quantity = 3;
+        candy.flavour = "Vanilla";
 		
-        System.out.println("Candy - Name: " + candy.name);
-		System.out.println("Weight: " + candy.weight+ " kg");
-		System.out.println("Flavor: " + candy.flavor);
+        System.out.println(" updated Candy - Name: " + candy.name);
+		System.out.println(" updated quantity: " + candy.quantity );
+		System.out.println(" updated Flavour: " + candy.flavour);
 
         // Medicine
+		
         Medicine medicine = new Medicine();
         medicine.name = "Aspirin";
-        medicine.usage = "Pain relief";
-        medicine.dosage = 500.0;
+        medicine.manfDate = "22/3/22";
+        medicine.expDate = "22/3/25";
+		 System.out.println("Medicine - Name: " + medicine.name);
+		System.out.println("manfDate: " + medicine.manfDate);
+		System.out.println("expDate: " + medicine.expDate );
 		
 		//update
 		medicine.name = "Paracetamol";
-        medicine.usage = "Fever Tablet";
-        medicine.dosage = 600.0;
+        medicine.manfDate = "1/6/23";
+        medicine.expDate = "2/6/26";
 		
-        System.out.println("Medicine - Name: " + medicine.name);
-		System.out.println("Usage: " + medicine.usage);
-		System.out.println("Dosage: " + medicine.dosage + " mg");
+        System.out.println(" updated Medicine - Name: " + medicine.name);
+		System.out.println(" updated manfDate: " + medicine.manfDate);
+		System.out.println(" updated expDate: " + medicine.expDate );
 
         // Food
+		
         Food food = new Food();
         food.name = "Pizza";
-        food.type = "Fast Food";
-        food.calories = 300.0;
+        food.price = 25;
+        food.calories = 300;
+		System.out.println("Food - Name: " + food.name );
+		System.out.println("price: " + food.price);
+		System.out.println("Calories: " + food.calories );
 		
 		//update
 		food.name = "Burger";
-        food.type = "Junk";
-        food.calories = 200.0;
+        food.price = 20;
+        food.calories = 200;
 		
-        System.out.println("Food - Name: " + food.name );
-		System.out.println("Type: " + food.type);
-		System.out.println("Calories: " + food.calories + " kcal");
-    }
-}
+        System.out.println(" update Food - Name: " + food.name );
+		System.out.println(" updated price: " + food.price);
+		System.out.println(" updated Calories: " + food.calories );
+ 
+
 	}
 }

@@ -14,6 +14,10 @@ class ConstructorRunner
 		
 
 		Rupee rupee=new Rupee();
+				System.out.println("value :"+rupee.value);
+		System.out.println("currency :"+rupee.currency);
+		System.out.println("weight :"+rupee.weight);
+
 		rupee.value=5;
 		rupee.currency="INR";
 		rupee.weight=50;
@@ -25,6 +29,10 @@ class ConstructorRunner
 		
 		
 		AirCondition airConditioner=new AirCondition();
+		System.out.println("airConditioner :"+airConditioner.brand);
+		System.out.println("airConditioner :"+airConditioner.quantity);
+		System.out.println("airConditioner :"+airConditioner.price);
+		
 		airConditioner.brand="WhirlPool";
 		airConditioner.quantity=1;
 		airConditioner.price=25000;
@@ -35,6 +43,10 @@ class ConstructorRunner
 		// class Autorikshaw
 
 	Autorikshaw autorikshaw=new Autorikshaw();
+	System.out.println("airConditioner :"+autorikshaw.price);
+		System.out.println("airConditioner :"+autorikshaw.vehicleNumber);
+		System.out.println("airConditioner :"+autorikshaw.owner);
+	
 		autorikshaw.price=50;
 		autorikshaw.vehicleNumber="HG102";
 		autorikshaw.owner="Hemanth";
@@ -45,6 +57,9 @@ class ConstructorRunner
 		//AutoDriver()
 		
 		AutoDriver autoDriver=new AutoDriver();
+		System.out.println("autoDriver:"+autoDriver.name);
+		System.out.println("autoDriver:"+autoDriver.age);
+		System.out.println("autoDriver:"+autoDriver.contactNumber);
 		autoDriver.name="Arun";
 		autoDriver.age=34;
 		autoDriver.contactNumber=6361;
@@ -55,6 +70,9 @@ class ConstructorRunner
 		//Rapido()
 	
 		Rapido rapido=new Rapido();
+		System.out.println("rapido:"+rapido.id);
+		System.out.println("rapido:"+rapido.cost);
+		System.out.println("rapido:"+rapido.location);
 		rapido.id="vg3456";
 		rapido.cost=345;
 		rapido.location="vijayanagar";
@@ -66,6 +84,10 @@ class ConstructorRunner
 	
 
 		CabCompany cabCompany=new CabCompany();
+				System.out.println("name:"+cabCompany.name);
+		System.out.println("income:"+cabCompany.income);
+		System.out.println("noOfEmployees:"+cabCompany.noOfEmployees);
+		
 		cabCompany.name="Uber";
 		cabCompany.income=786567;
 		cabCompany.noOfEmployees=140;
@@ -76,6 +98,10 @@ class ConstructorRunner
 		//BMTC()
 		
 		BMTC bmtc=new BMTC();
+		System.out.println("bmtc noOfBuses:"+bmtc.noOfBuses);
+		System.out.println("bmtc officeLocation:"+bmtc.officeLocation);
+		System.out.println("bmtc noOfEmployees:"+bmtc.noOfEmployees);
+		 
 		bmtc.noOfBuses=9591;
 		bmtc.officeLocation="Vijayanagar";
 		bmtc.noOfEmployees=76594;
@@ -86,6 +112,9 @@ class ConstructorRunner
 		//FoodDeliveryCompany
 		 
 		FoodDeliveryCompany foodDeliveryCompany=new FoodDeliveryCompany();
+		System.out.println("name:"+foodDeliveryCompany.name);
+		System.out.println("deliveryCharges:"+foodDeliveryCompany.deliveryCharges);
+		System.out.println("location:"+foodDeliveryCompany.location);
 		foodDeliveryCompany.name="Swiggy";
 		foodDeliveryCompany.deliveryCharges=50;
 		foodDeliveryCompany.location="maadavara";

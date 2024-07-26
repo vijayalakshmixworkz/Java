@@ -177,7 +177,7 @@ class AlcoholBrand
 	double price;
 public AlcoholBrand()
 {
-System.out.println("AlcoholBrand constructor is created");
+System.out.println("AlcoholBrand constructor is created ");
 
 }
 }

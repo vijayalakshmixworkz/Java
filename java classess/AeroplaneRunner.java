@@ -12,7 +12,7 @@ public static void main(String[] args)
         Aeroplane plane3 = new Aeroplane("JetLine", "San Francisco", "Tokyo");
         System.out.println(plane3);
 
-        Aeroplane plane4 = new Aeroplane("SkyHigh", 200.0, "Paris", "Berlin");
+        Aeroplane plane4 = new Aeroplane("SkyHigh", 200.0, "Paris", "berlin");
         System.out.println(plane4);
     }
 }

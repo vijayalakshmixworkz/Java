@@ -4,7 +4,6 @@
      String quality;
      String color;
 
-    // 1. Constructor
     public Paper(double thickness, String size, String quality, String color) {
         this.thickness = thickness;
         this.size = size;
@@ -12,12 +11,10 @@
         this.color = color;
     }
 
-    // 2. Static Factory Method
     public static Paper createPaper(double thickness, String size, String quality, String color) {
         return new Paper(thickness, size, quality, color);
     }
 
-    // 3. Setters for initialization
     public void setThickness(double thickness) {
         this.thickness = thickness;
     }

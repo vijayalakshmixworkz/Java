@@ -1,18 +1,25 @@
-//A.Write a class with below methods
-//1.Method to take code and return country: 5 condition
-//2.Method to take item and return price: 5 condition
-//3.Method to take movie name and return produer name:5 condition
+//Country : name , continent, State:literal
+//Declare a method to print details
 
+class Country {
+    private String name;
+    private String continent;
+    private State state;
 
-class Country1
-{
-public static String code()
-{
-}
-public static double cost()
-{
-}
-public static String producer()
-{
-}
+    public Country(String name, String continent, State state)
+	{
+        this.name = name;
+        this.continent = continent;
+        this.state = state;
+    }
+
+    
+    public void printDetails() 
+	{
+        System.out.println("Country Name: " + this.name);
+        System.out.println("Continent: " + this.continent);
+        this.state.printDetails();
+        
+    }
+
 }

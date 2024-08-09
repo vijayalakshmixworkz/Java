@@ -4,7 +4,6 @@
      double cost;
      String output;
 
-    // 1. Constructor
     public Speaker(String brand, String size, double cost, String output) {
         this.brand = brand;
         this.size = size;
@@ -12,12 +11,10 @@
         this.output = output;
     }
 
-    // 2. Static Factory Method
     public static Speaker createSpeaker(String brand, String size, double cost, String output) {
         return new Speaker(brand, size, cost, output);
     }
 
-    // 3. Setters for initialization
     public void setBrand(String brand) {
         this.brand = brand;
     }
@@ -34,7 +31,6 @@
         this.output = output;
     }
 
-    // 4. Direct assignment (Literals)
     public void setDefaultValues() {
         this.brand = "Default Brand";
         this.size = "Default Size";
@@ -42,7 +38,6 @@
         this.output = "Default Output";
     }
 
-    // Method to display all instance variables
     public void displayInfo() {
         System.out.println("Brand: " + brand + ", Size: " + size + ", Cost: " + cost + ", Output: " + output);
     }

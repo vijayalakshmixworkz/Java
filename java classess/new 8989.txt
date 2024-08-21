@@ -1,0 +1,32 @@
+Package
+folders
+project: standard package
+reverse domain
+IDE: compiler,editor,console
+package com.xworkz.monday;
+public class runner{
+}
+sysout: system.out.println
+
+layoffs.fyi tracker 
+
+package:
+it is a keyword represent a folder first statement java file path of the program.
+standard package
+domaintype.companyname.appname
+
+ACCESS-SPECIFIER:
+who can access the program.
+it control what another class can do in this class
+use it with class,variables,consrtuctor,methods.
+1.public 
+ - same package or  diff package
+2. protected
+- inheritance
+3. package-default ( it is virtual,it dont have keyword)
+-same package
+4.private
+-same class
+
+import:
+key word used to import the classes from different packages.

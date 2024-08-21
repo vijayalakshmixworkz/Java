@@ -53,8 +53,6 @@ public int add(int a, int b) {
     return a + b; // Error: Return statement should be at the end of the method
     System.out.println("Hello"); // This line will never be executed
 }
-
-
 1. Returning null from a method with a primitive return type: Attempting to return null from a method with a primitive return type (e.g., int, boolean).
 
 Example:
@@ -63,7 +61,6 @@ public int add(int a, int b) {
     return null; // Error: Cannot return null from method with int return type
 }
 
-
 1. Returning a value from a method with a void return type: Attempting to return a value from a method with a void return type.
 
 Example:
@@ -71,10 +68,6 @@ Example:
 public void printHello() {
     return "Hello"; // Error: Cannot return value from method with void return type
 }
-
-
-These are some common errors to watch out for when working with return types in Java.
-
 
 Here are some possible errors that can occur with return types in Java:
 

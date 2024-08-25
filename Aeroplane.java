@@ -36,6 +36,9 @@ class Aeroplane {
         this.destination = destination;
         System.out.println("Constructor with company, ticketPrice, source, and destination parameters called");
     }
-
+	public void printAttributes()
+	{
+		System.out.println("aeroplane [company ="+company+",noOfSeats="+noOfSeats+",ticketPrice="+ticketPrice+", source="+source+",destination="+destination+"]");
+	}
     
 }

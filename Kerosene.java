@@ -20,7 +20,6 @@ class Kerosene {
         System.out.println("Constructor with price, quantity, and quality parameters called");
     }
 
-    // Constructor to init quality
     public Kerosene(boolean quality) {
         this.quality = quality;
         System.out.println("Constructor with quality parameter called");
@@ -31,7 +30,6 @@ class Kerosene {
         System.out.println("Constructor with price parameter called");
     }
 
-    @Override
     public String toString() {
         return "Kerosene [price=" + price + ", quantity=" + quantity + ", quality=" + quality + "]";
     }

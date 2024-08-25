@@ -1,0 +1,35 @@
+CSS [Cascading Style Sheet]
+java script
+3 types CSS are there:
+1. Inline CSS - inside HTML element
+	<element style ="propertyname:value">
+2. Internal CSS - within html file inside Style tag
+	syntax:-
+	<style>
+	selector{
+	propertyname:value;
+	propertyname:value;
+	propertyname:value;
+	propertyname:value;
+	}
+	</style>
+3. External CSS external.CSS file we connect using link tag
+ Syntax:
+	selector{
+		propertyname:value;
+	}
+	
+	<div>
+	<p style="color:royalblue;font-weigth: bolder;font-size:15px;"this is good day</p>
+	
+	Element: 
+	
+	Selectors:
+	4 types:
+1. element selector  --> html element
+2.id selector --> # with id name
+3.	class selector --> .with class name
+4.	universal selector --> *
+
+Pseudo selector:
+it have some special state

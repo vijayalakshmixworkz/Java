@@ -20,4 +20,9 @@ public class Shwetha {
 
 
 }
+
+	public void fill(WaterBottle waterBottle2) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -1,18 +1,11 @@
 package com.xworkz.Datatypes;
 
 public class Divya {
-	public void safeguard()
-	{
-		Shoe shoe=null;
+	public void safeguard() {
+		Shoe shoe = new Shoe();
 
-	if(shoe!=null) {
 		shoe.safeguard();
 		System.out.println(shoe.brand);
-	}
-	else
-	{
-		System.out.println("Shoe is null");
-	}
-}
-}
 
+	}
+}

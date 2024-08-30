@@ -1,5 +1,5 @@
 package datatypes;
-import datatypes.Upendra;
+import things.Upendra;
 public class HatRunner {
 
 	public static void main(String[] args) {

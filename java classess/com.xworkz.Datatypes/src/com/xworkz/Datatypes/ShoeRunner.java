@@ -7,14 +7,16 @@ public class ShoeRunner {
 		// TODO Auto-generated method stub
 		Omkar Omkar=new Omkar();
 		Shoe shoe=new Shoe();
-		Omkar.safeguard();
+		shoe.brand="bata";
+		shoe.cost=850;
+		Omkar.safeguard(shoe);
 		
 		Divya Divya=new Divya();
 		Divya.safeguard();
 		
-		Harshitha Harshitha=new Harshitha();
-		Harshitha.shoe=new Shoe();
-		Harshitha.enhancewalk();
+		Harshitha harshitha=new Harshitha();
+		harshitha.shoe=shoe;
+		harshitha.wear();
 
 
 	}

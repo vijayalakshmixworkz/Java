@@ -10,7 +10,7 @@ public class WashingMachineRunner {
 	abhishek.washingMachine();
 
 	Lakshmi lakshmi = new Lakshmi();
-	WashingMachine washingMachine = new WashingMachine("hair", "nnnn", 150);
+	WashingMachine washingMachine = new WashingMachine("samsung", "nnnn", 150);
 	lakshmi.wash(washingMachine);
 
 	

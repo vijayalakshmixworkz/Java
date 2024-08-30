@@ -1,5 +1,5 @@
 package com.xworkz.Datatypes;
-
+//local variable
 public class Divya {
 	public void safeguard() {
 		Shoe shoe = new Shoe();

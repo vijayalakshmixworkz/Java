@@ -30,3 +30,46 @@ use it with class,variables,consrtuctor,methods.
 
 import:
 key word used to import the classes from different packages.
+
+//protected
+-protected is meant for inheritance from a different package.
+-protected is in between and public
+-it is an access-specifier
+-[var,classes,methods,constructors]
+-it is package default ,with same package we can access with inheritance
+
+
+
+// over riding
+- subclass over ride the method inherited
+-override means chnage the logic
+
+
+// over-loading
+-methods with same names but different parameters
+-change in the parameters
+-there should be change in number of parameters or datatype of parameters.
+-with in class
+- constructor and method
+-TWO Methods having same in but different parameters
+1.method over-loading [with reference names]
+2. consrtuctor over-loading [with new keyword]
+
+- datatypes should be different
+- reference names can be same or different
+
+
+
+inheritance,chaining
+
+❤️❤️❤️❤️❤️❤️😍😍😍😍😍💖
+
+//Object:
+it is a real world intity.
+super class present in package called as java.lang
+it is a superclass
+
+it is instance of class
+
+
+

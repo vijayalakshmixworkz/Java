@@ -70,6 +70,10 @@ super class present in package called as java.lang
 it is a superclass
 
 it is instance of class
+11 methods are there.
+
+
+// Casting:
 
 
 

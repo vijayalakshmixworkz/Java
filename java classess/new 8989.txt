@@ -75,5 +75,11 @@ it is instance of class
 
 // Casting:
 
+// protected
+it is an access-specifier
+it allows subclass to acces by anyclass using override or invoke.
+it can be used when you want only subclass from any package to access.
+it is meant for inheritance.- child class can inherit from any package.
+
 
 

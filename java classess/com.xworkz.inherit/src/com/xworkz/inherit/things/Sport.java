@@ -13,9 +13,9 @@ public class Sport {
 	
 
 }
-// 1. parent 2. same class
-Sport sport= new Sport();// using this we can access variables and methods
+
 Object object =new Sport();// can access methods
+
 // so use casting to access the methods of subclass
 Sport casted =(Sport)object;
 

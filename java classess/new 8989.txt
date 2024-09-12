@@ -82,4 +82,57 @@ it can be used when you want only subclass from any package to access.
 it is meant for inheritance.- child class can inherit from any package.
 
 
+//  boolean equals method
+ref.method()
+this
+sheep1.equals(sheep2);
+sheep1-this // variables of sheep1 can be accesed by equals method
+sheep2- obj // use casting to access variables and methods of subclass
+
+
+========================sep11===========================
+// toString
+sop(ref); String representation// invoke toString opeation
+defaultvalue: fullyQualifiedName+@+integer.hexadecimal number
+
+// int hashCode()
+hashing algorithm
+to see unique id the of object is created
+this unique id is used by jvm or another class
+ex:
+int sheep1code=sheep1.hashcode();
+sop("id":+sheep1code);
+or 
+sop("code"+sheep1.hashCode());
+subclass can override this method
+if you invoke this method you will get hashcode of overridden method in subclass.
+
+for original hashcode use super.hashcode();
+system.identityHashCode(ref);// it gives original hashCode// it is available in system class
+
+classes that related to hashCode
+hashSet
+linkedHashSet
+treeSet
+hashMap
+linkedHashMap
+
+// final
+is a keyword
+we can use this keyword with variables and methods
+it is non-access specifier
+
+
+// principles
+principles are the characteristics of object inreal world
+POLYMORPHISM:same name different forms
+class is poly:
+1. over-loading
+--  in a class same method name. diff in parameters:no of parameter or datatype
+--it is called as compile time polymorphism.
+2. overr-riding
+-- subclass over-ride(change logic)of the inherited method 
+-runtime polymorphism( jvm will check the version of the method to use either parent or subclass method) acheived using over-riding
+
+
 

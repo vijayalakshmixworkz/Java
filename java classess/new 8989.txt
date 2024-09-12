@@ -135,4 +135,11 @@ class is poly:
 -runtime polymorphism( jvm will check the version of the method to use either parent or subclass method) acheived using over-riding
 
 
+=======================sep 12==============================
+blocks:
+1.static block 
+//static block runs only once
+
+2. object block
+// it can be execute multiple times
 

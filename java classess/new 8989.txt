@@ -143,3 +143,25 @@ blocks:
 2. object block
 // it can be execute multiple times
 
+
+============================sep 13=========================================
+constructor:
+ use: init instance variables
+ use this with new or chaining
+
+
+
+Abstract:
+is a keyword, which means incomplete
+we can complete it using inheritance.
+only subclass can complete it'abstract is used in class and methods.
+
+
+abstract methods do not have body.
+abstract class also have constructor.
+
+in abstract class we can use constructor with new keyword, so use chaining.
+
+
+
+

@@ -9,7 +9,8 @@ public class FileOperationsRunner {
 	        FileOperations fileOps = new FileOperations();
 
 	        // File paths
-	        String inputFilePath = "file:///C:/Users/kumrk/Downloads/Shalini%20G%20K%20(1).pdf";   // File to read from
+	        
+	        String inputFilePath = "C:\\Users\\kumrk\\Downloads\\Shalini.txt\";   // File to read from
 	        String outputFilePath = "output.txt"; // File to write to
 
 	        // Reading from the input file

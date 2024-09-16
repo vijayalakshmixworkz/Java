@@ -62,6 +62,10 @@ key word used to import the classes from different packages.
 
 inheritance,chaining
 
+inheritance:
+one class inherita properties & methods of another class.
+
+
 ❤️❤️❤️❤️❤️❤️😍😍😍😍😍💖
 
 //Object:
@@ -163,6 +167,22 @@ abstract methods do not have body.
 abstract class also have constructor.
 
 in abstract class we can use constructor with new keyword, so use chaining.
+
+
+class: custom data type
+abstract: custom datatype
+
+==========================sep 16===========================
+interface: 
+is a data type
+variables:static
+methods:default and static
+cannot create consrtuctor
+interface is a media that connects two systems
+in java it connects two classes.
+--- interface can be called as rules (methods)
+it contains abstract methods
+
 
 
 

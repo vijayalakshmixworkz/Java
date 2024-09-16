@@ -21,6 +21,7 @@ public class TrafficRuleRunner {
         traffic.giveWayToEmergencyVehicle();
         traffic.parkingInDesignatedArea();
         traffic.stopAtZebraCrossing();
+        
     }
 }
 

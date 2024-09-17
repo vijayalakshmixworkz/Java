@@ -12,6 +12,7 @@ public class HospitalRunner {
 		govtHospitalRule.visitersAllowed();
 		govtHospitalRule.serve();
 		
+		
 	}
 	
 }

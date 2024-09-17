@@ -14,7 +14,7 @@ public class CollegeRulesRunner {
 		 System.out.println(aitcollege.hostelfee());
 		 System.out.println();
 		 System.out.println(aitcollege.noOfPlacements());
-		 System.out.println();
+		 System.out.s();
 		 System.out.println(aitcollege.SecurityRules());
 		 System.out.println(aitcollege.name());
 		

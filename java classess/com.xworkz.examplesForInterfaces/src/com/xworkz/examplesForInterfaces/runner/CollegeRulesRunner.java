@@ -7,16 +7,16 @@ public class CollegeRulesRunner {
 
 	public static void main(String[] args) {
 		AITCollege aitcollege= new CollegeImplentation();
-		aitcollege.academicRules();
-		aitcollege.attendance();
-		aitcollege.discipline();
-		aitcollege.display();
-		aitcollege.hostelfee();
-		aitcollege.libraryRules();
-		aitcollege.noOfPlacements();
-		aitcollege.safety();
-		aitcollege.SecurityRules();
-		aitcollege.name();
+		System.out.println();
+		System.out.println(aitcollege.attendance());
+		 System.out.println(aitcollege.discipline());
+		 System.out.println();
+		 System.out.println(aitcollege.hostelfee());
+		 System.out.println();
+		 System.out.println(aitcollege.noOfPlacements());
+		 System.out.println();
+		 System.out.println(aitcollege.SecurityRules());
+		 System.out.println(aitcollege.name());
 		
 	}
 

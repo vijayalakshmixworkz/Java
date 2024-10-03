@@ -33,3 +33,42 @@ java script
 
 Pseudo selector:
 it have some special state
+
+
+sept 30=========================================================
+html w3 school
+HTML:
+an html is 
+desktop- new folder- path- cmd- code .- new file- index.html
+download live server
+after writing code - right click- open live server
+ give ./ to get files from the folder
+&nbsp   use this to give spaces inside the paragraph.
+
+attribute:
+it will provide additional information about the  html element.
+image is element
+
+
+lists:
+ol or ul
+li -list items
+types:
+<ol type="">
+A- capital letters 
+a- small letters
+I-roman numbers
+i- small roman numbers
+<ul type="">
+circle 
+square
+desc
+
+tag:
+
+iframe
+ -to give url to view websites or youtube videos.
+ 
+ 
+ use anchor tag to provide link between pages:
+ <a href=""></a>

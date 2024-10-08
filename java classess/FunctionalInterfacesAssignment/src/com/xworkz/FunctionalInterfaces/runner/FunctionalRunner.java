@@ -42,7 +42,6 @@ import java.util.function.ToLongBiFunction;
 import java.util.function.ToLongFunction;
 import java.util.function.UnaryOperator;
 
-import com.xworkz.collection.associate.FunctionalInt;
 
 public class FunctionalRunner {
 

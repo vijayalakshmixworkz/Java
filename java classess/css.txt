@@ -1,74 +1,34 @@
-CSS [Cascading Style Sheet]
-java script
-3 types CSS are there:
-1. Inline CSS - inside HTML element
-	<element style ="propertyname:value">
-2. Internal CSS - within html file inside Style tag
-	syntax:-
-	<style>
-	selector{
-	propertyname:value;
-	propertyname:value;
-	propertyname:value;
-	propertyname:value;
-	}
-	</style>
-3. External CSS external.CSS file we connect using link tag
- Syntax:
-	selector{
-		propertyname:value;
-	}
-	
-	<div>
-	<p style="color:royalblue;font-weigth: bolder;font-size:15px;"this is good day</p>
-	
-	Element: 
-	
-	Selectors:
-	4 types:
-1. element selector  --> html element
-2.id selector --> # with id name
-3.	class selector --> .with class name
-4.	universal selector --> *
 
-Pseudo selector:
-it have some special state
+oct 7 =================================
+CSS:
+Cascading style sheets
+Style sheet language
+design HTML elements and web pages
+how to display html element in our web browser.
 
+HTML- skeleton
+CSS- Design web pages
+there are 3 ways in CSS:
+1. inline css
+		to write inside html element
+2. internal css
+		to write html documents using style tag
+3.external css
+		to seperate .css link using link tag
 
-sept 30=========================================================
-html w3 school
-HTML:
-an html is 
-desktop- new folder- path- cmd- code .- new file- index.html
-download live server
-after writing code - right click- open live server
- give ./ to get files from the folder
-&nbsp   use this to give spaces inside the paragraph.
-
-attribute:
-it will provide additional information about the  html element.
-image is element
-
-
-lists:
-ol or ul
-li -list items
-types:
-<ol type="">
-A- capital letters 
-a- small letters
-I-roman numbers
-i- small roman numbers
-<ul type="">
-circle 
-square
-desc
-
-tag:
-
-iframe
- -to give url to view websites or youtube videos.
- 
- 
- use anchor tag to provide link between pages:
- <a href=""></a>
+Inline css:-
+syntax:
+  style ="propertyname: parameter;"
+  ex:
+  <h1 style="color: blue;">hello css</h1>
+  
+  
+  selectors:
+  1. element selectors
+  2. id selectors
+  3.class selector
+  
+  
+  use # for id
+  to change fields of paragraph you can use id.
+  

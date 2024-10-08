@@ -1,0 +1,30 @@
+5 files
+write 20 headings
+5 paragraph
+change the font italic, bold,mark,del,span,underline
+display 10 images
+display 10 videos
+display 5  website
+display 5 youtube videos
+link one page to another page
+create un-ordered list and ordered list
+
+
+oct 1========================
+
+copy the files- downloads- tomcat-webapps-new folder- xworkz- copy it inside
+
+
+oct 4===========================
+
+Forms:
+to tke input from users.
+use <form> tag
+<input type is text for text, password for hide the text.
+button: input tag, type is submit
+required for mandatory information 
+radio button
+=========================oct 7=============
+repository
+cmd
+code .

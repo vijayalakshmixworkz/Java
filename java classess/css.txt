@@ -31,4 +31,24 @@ syntax:
   
   use # for id
   to change fields of paragraph you can use id.
+  ===================Oct 8=====================
+  terminal-
   
+  text decoration
+  word spacing
+  letter spacing
+  color
+  
+  line-height
+  text -align
+  
+ CSS properties:
+ 1.color
+ 2. font family
+ 3. text transform
+ 4.font style
+ 5. background color
+ 6. line-height
+ 7. text-align
+ 8. word - spacing
+ 9. 

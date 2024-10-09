@@ -221,3 +221,24 @@ Ecom ecom=(String item,int quantity)->{
 OnlineShop onlineShop=(String item,int quantity,double discount)->{
 		system.out.println("");
 }
+
+=======================oct 8================
+API:-
+Application Programming Interface
+set of interfaces,classes,annotations&enum
+to design the standards to connect to applications.
+Standard:
+
+
+Stream:-
+it is an API
+API(interfaces,class,annotations&enum)
+	store ref of integer:
+		Collection<Integer>collection=new ArrayList();
+			collection.add(13);
+			collection.add(16);
+			collection.add(17);
+			collection.add(18);
+			collection.add(14);
+			collection.add(19);
+			

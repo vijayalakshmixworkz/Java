@@ -52,3 +52,17 @@ syntax:
  7. text-align
  8. word - spacing
  9. 
+ ====================sep 9 =======================
+ BOX-model:
+ 1.border
+ 2.padding
+ 3.margin
+ 4. content
+ 
+ PSEUDO-SELECTORS:
+ 1.link
+ 2.hover
+ 3.active
+ 4.visited
+ 
+ 

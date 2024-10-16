@@ -65,4 +65,33 @@ syntax:
  3.active
  4.visited
  
+ ================sep 10=============
  
+GIT-HUB:
+git checkout -b new branch
+git checkout branchname
+git status
+git add index.css
+git commit -m"servlet branch"
+git push origin main
+
+
+dynamic projects:
+file
+new
+dynamic projects
+project name
+finish
+main/java/webapp
+
+add dependencies:
+
+add tomcat:
+servlet
+tomcat v9
+desktop-tomcat-next-calculation-
+
+
+webproject-maven project
+project-right click-configure-com.xworkz.
+

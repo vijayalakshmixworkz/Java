@@ -242,3 +242,16 @@ API(interfaces,class,annotations&enum)
 			collection.add(14);
 			collection.add(19);
 			
+====================14-10-24==============================
+LOMBOK:
+generator jar
+third party library
+project-java-classes-jar-maven(lib repo)
+lombok-download-double click-specify location-install
+project-rightclick-properties-buildpath-libraries-add external jars-select lombok-apply-apply and close-see the lombok.
+
+
+=================================16-10-24=========================
+command prompt- ip conflict- enter
+
+

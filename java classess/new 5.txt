@@ -1,1 +1,28 @@
-platform independence
+
+Platform Independence
+JDK vs JRE vs JVM
+Stack and Instance memory
+datatype
+variables
+methods
+classes & constrcutor
+Constructor chaining
+Association's
+arrays
+wrapper classes
+Inheritance
+Abstract classes
+Interfaces
+Polymporphism
+Abstraction
+Encapsulation
+Object class (equals,toString & hashCode)
+Casting , instanceOf
+Access-specifeirs: protected
+enum
+Access-specifeirs
+non-Access-specifeirs(static & final)
+Exception
+DTO
+packages(standard package) & imports (types of imports)
+

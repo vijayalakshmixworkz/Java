@@ -25,4 +25,8 @@ non-Access-specifeirs(static & final)
 Exception
 DTO
 packages(standard package) & imports (types of imports)
-
+collections
+servlets
+web
+sql
+jdbc

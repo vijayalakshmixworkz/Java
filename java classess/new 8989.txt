@@ -254,4 +254,28 @@ project-rightclick-properties-buildpath-libraries-add external jars-select lombo
 =================================16-10-24=========================
 command prompt- ip conflict- enter
 
+=====================================21-10-24======================
 
+standard package- sub packages.
+webapp- html forms
+
+forms:-
+HTTP methods:
+get-- read operation
+post--create
+put--update
+delete--delete
+
+rest services
+
+
+----> Debug mode
+server-debug mode- fill form-breakpoint-resume
+select line- right click-inspect
+---->
+source-generate methods	
+getters,setters , const
+---->
+initialize dto:
+	create object in servlets before response.
+	

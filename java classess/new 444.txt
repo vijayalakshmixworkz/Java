@@ -1,0 +1,12 @@
+College Admission : name,email,mobile,address,fathername,mothername,percentage,Course,Age
+2.FeedBack : Name,Email,comments
+3.MovieTicket: name,totalTickets,theaterName,seatType,donation,date,time
+4.CricketTicket : groundName,CustomerName,CustomEmail,seatType,noOfTickets
+5.ConcertTicket : location,artistName,ticketType,noOfTickets,preferenceType
+
+
+jdbc:
+
+5 projects
+chrome-maven project-sql- 8.0.3-driver
+java project- two classes-add try catch block

@@ -279,3 +279,10 @@ getters,setters , const
 initialize dto:
 	create object in servlets before response.
 	
+
+==================================22-10-24======================
+validation:
+1.client side-js
+2.server side-java
+servlet sends the data to service
+service do the validation

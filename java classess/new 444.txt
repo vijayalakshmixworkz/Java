@@ -8,5 +8,9 @@ College Admission : name,email,mobile,address,fathername,mothername,percentage,C
 jdbc:
 
 5 projects
-chrome-maven project-sql- 8.0.3-driver
+chrome-maven repository-search- my sql connector java- 8.0.30-files-jar-download-driver
+Class.forName
+driver name- com.mysql.cj.jdbc.Driver
 java project- two classes-add try catch block
+connecting to project :-
+right click- preferences- java build path-add jars- select jar- apply and close.

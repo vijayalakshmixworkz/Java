@@ -13,4 +13,9 @@ Class.forName
 driver name- com.mysql.cj.jdbc.Driver
 java project- two classes-add try catch block
 connecting to project :-
-right click- preferences- java build path-add jars- select jar- apply and close.
+right click- preferences/properties- java build path-add jars- select jar- apply and close.
+jdbcprojects
+apple
+bees
+cat
+elephant

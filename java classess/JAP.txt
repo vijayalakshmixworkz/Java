@@ -1,0 +1,34 @@
+JPA:
+new project
+dynamic web project
+right click
+configure
+convert to maven project
+
+interger id=1; 
+gamesdto dto=em.find(gamesdto.class,id);
+sout("dto=="+dto.getgamename());
+
+entity
+5 queries
+et.product name where= : byname
+List <entity>list=Qurery.getResultLiist();
+list forEach(n->sop(n));
+
+String string=(String)object;
+sop(""+string);
+
+
+
+
+
+
+project:
+
+packages:
+configuration
+controller
+service
+repo
+dto
+entity

@@ -19,3 +19,13 @@ apple
 bees
 cat
 elephant
+
+
+
+
+steps:
+load and register driver: try catch
+create connection
+ create statement
+execute query
+closing resources

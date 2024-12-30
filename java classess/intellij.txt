@@ -1,0 +1,85 @@
+
+19-11-24
+Intellij:
+Maven:
+to maintain
+upload the jar
+download: groupId,version,artifactId
+
+Spring:
+set up
+create a project-spring mvc-to develop web application-
+
+
+spring io
+project-maven-(dependency)spring-mvc.5.2.25
+pom.xml-project,object,model
+setup server:
+file-settings-
+plugin-smarttomcat -lombok-select-downloads-apache tomcat-ok
+
+server-plus-select-ok-apply-ok
+project-run-debug-configuration-smart tomcat-catalina base-path 
+new project-maven archetype-create
+archtype-search-web app
+
+folder-webapp-current file-configuration- add smarttomcat-apply-ok
+
+
+intellij projects:
+new project
+generator:maven archtype-webapp-current
+check advanced settings for group id and artifact id
+refresh the project
+src-main-webapp-resources-java folder
+pom.xml-javax.servlet is mandatory
+tomcat server- add server-select the path
+
+running the application:
+project-current file-edit configuration-select smart tomcat--apply-ok
+url-click
+
+
+
+
+
+task: remove junit
+add spring mvc
+dependencies
+=========================20-11-24=======================
+
+front controller:
+it is a design pattern.
+entire application have single servlet.
+
+dispatcher servlet:
+servlet provided by springmvc
+entry and exit for application
+
+
+Spring Mvc
+MVC frameworkz
+it is an architecture
+MVC:model,view,controller
+Struts:classes:jar
+
+spring mvc dependency:
+dependency is nothing but a jar file.
+
+add dependency:
+org.springframework
+5.5.39 version
+
+create webinitializer: class that helps to initialize the application
+
+package-com.xworkz.projectname.configuration
+class- name extends abstractannotationconfigdispatcherservletinitializer
+implements webmvcconfigurer
+
+implement methods
+
+
+
+
+
+	

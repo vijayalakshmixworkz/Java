@@ -1,0 +1,26 @@
+1.contact info: name,email, phone number, git link
+ Profile:  
+		Motivated Computer Science graduate eager to start a career in software engineering.
+		Strong academic foundation and a passion for learning.
+		Ready to contribute and grow in a dynamic team environment.
+
+technical skills:
+			Languages: java,SQL,C
+			IDE: Eclipse,Intellij
+			API:Servlet
+			server:Tomcat,Maven
+			web development: CSS,HTML,JS,Bootstrap
+			Databases:MySQL,JDBC
+			Tools:Git-Hub,Visual Studio Code, Notepad++
+			
+	Technical summary:
+	Java:
+	education: B.E in computer science
+					2024
+					Visvesvaraya Technological University
+	Experience:Java enterprise application trainee from 6 months in X-workz.
+
+java: principles,exception,collection,map,java features,lambda expression
+
+sql,web,jdbc,servlet,springmvc,jpa,maven,email
+			

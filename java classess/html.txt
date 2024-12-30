@@ -28,3 +28,14 @@ radio button
 repository
 cmd
 code .
+
+
+=======================13-11=========
+node js need to installed
+to create react app :
+terminal
+npx create-react-application name
+inside src file-change directory to application name
+cd application name
+npm start
+app.js -->to edit the page
